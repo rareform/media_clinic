@@ -1,0 +1,21 @@
+package vetclinic.cmd;
+
+public enum CmdType {
+
+    ADD_DOCTOR,
+    ADD_PATIENT,
+    DELETE_DOCTOR,
+    DELETE_PATIENT,
+    EDIT_PATIENT,
+    SHOW_ALL_PATIENTS,
+    SHOW_ALL_DOCTORS,
+    ADD_APPOINTMENT,
+
+    SHOW_APPOINTMENTS,
+
+    CHANGE_APPOINTMENT_STATUS,
+
+    EXIT,
+
+    UNDEFINED
+}
